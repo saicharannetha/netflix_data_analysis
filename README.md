@@ -1,5 +1,5 @@
 
-# Netflix_sqlproject
+# Netflix Movies and TV Shows Data Analysis using SQL
 ![netflix_logo](https://github.com/saicharannetha/netflix_mysqlproject/blob/main/logo.png)
 
 
