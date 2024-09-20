@@ -1,6 +1,6 @@
 
 # Netflix_sqlproject
-
+![netflix_logo](https://github.com/saicharannetha/netflix_mysqlproject/blob/main/logo.png)
 
 ## overview
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. 
