@@ -1,5 +1,6 @@
 
 # Netflix_sqlproject
+![netflix_logo](https://github.com/saicharannetha/netflix_mysqlproject/blob/main/logo.png)
 
 
 ## overview
