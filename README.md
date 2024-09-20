@@ -1,6 +1,6 @@
 
 # Netflix_sqlproject
-![netflix_logo](https://github.com/saicharannetha/netflix_mysqlproject/blob/main/logo.png)
+
 
 ## overview
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. 
@@ -18,23 +18,4 @@ The data for this project is sourced from the Kaggle dataset.
 Dataset Link:https://www.kaggle.com/datasets/rahulvyasm/netflix-movies-and-tv-shows
 ## Dependencies
 Mysql
-## schemas
-```sql
-DROP TABLE IF EXISTS netflix;
-CREATE TABLE netflix
-(
-    show_id      VARCHAR(5),
-    type         VARCHAR(10),
-    title        VARCHAR(250),
-    director     VARCHAR(550),
-    casts        VARCHAR(1050),
-    country      VARCHAR(550),
-    date_added   VARCHAR(55),
-    release_year INT,
-    rating       VARCHAR(15),
-    duration     VARCHAR(15),
-    listed_in    VARCHAR(250),
-    description  VARCHAR(550)
-);
-```
-
+## Business Problems and Solutions
