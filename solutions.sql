@@ -59,11 +59,11 @@ SELECT listed_in,COUNT(*) AS content_count
 FROM netflix_titles
 GROUP BY listed_in;
 
--- 11. List all movies that are documentaries
+-- 10. List all movies that are documentaries
 SELECT * FROM netflix_titles
 WHERE listed_in LIKE '%Documentaries';
 
--- 12. Find all content without a director
+-- 11. Find all content without a director
 SELECT * FROM netflix
 WHERE director IS NULL;
 
