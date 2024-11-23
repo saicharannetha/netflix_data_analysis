@@ -82,15 +82,8 @@ WHERE STR_TO_DATE(date_added, '%M %d, %Y') >= CURDATE() - INTERVAL 5 YEAR;
 ```
 Objective: Retrieve content added to Netflix in the last 5 years.
 
-7. Find All Movies/TV Shows by Director 'Rajiv Chilaka'
-```
-SELECT *
-FROM netflix_titles
-WHERE FIND_IN_SET('Rajiv Chilaka', director) > 0;
-```
-Objective: List all content directed by 'Rajiv Chilaka'.
 
-8. List All TV Shows with More Than 5 Seasons
+7. List All TV Shows with More Than 5 Seasons
  ```
    SELECT title, duration from netflix_titles
 WHERE type = 'TV Show' AND duration > 5 
@@ -98,7 +91,7 @@ order by duration desc;
 ```
 Objective: Identify TV shows with more than 5 seasons.
 
-9. Count the Number of Content Items in Each Genre
+8. Count the Number of Content Items in Each Genre
 ```
 SELECT listed_in,COUNT(*) AS content_count
 FROM netflix_titles
@@ -106,7 +99,7 @@ GROUP BY listed_in;
 ```
 Objective: Count the number of content items in each genre.
 
-10. List All Movies that are Documentaries
+9. List All Movies that are Documentaries
 ```
  SELECT * FROM netflix_titles
 WHERE listed_in LIKE '%Documentaries';
@@ -114,7 +107,7 @@ WHERE listed_in LIKE '%Documentaries';
 Objective: Retrieve all movies classified as documentaries.
 
 
-11. Find All Content Without a Director.
+10. Find All Content Without a Director.
  ```
 SELECT * FROM netflix
 WHERE director IS NULL;
