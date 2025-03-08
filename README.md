@@ -4,7 +4,7 @@
 
 
 ## overview
-This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. 
+This project involves a comprehensive analysis of Netflix's movies and TV shows data. The goal is to extract valuable insights and answer various business questions based on the dataset. 
 ## Objectives
 Analyze the distribution of content types (movies vs TV shows).
 
